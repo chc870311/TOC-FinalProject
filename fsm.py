@@ -265,6 +265,6 @@ class TocMachine(GraphMachine):
         print("I'm entering state3")
         reply_token = event.reply_token
 #        send_text_message(reply_token, "Trigger state3")
-        send_image(reply_token, 'https://i.imgur.com/Q01zzlp.png')
+        send_image(reply_token, 'https://i.imgur.com/yRq0e1U.png')
         self.go_back()
 		
