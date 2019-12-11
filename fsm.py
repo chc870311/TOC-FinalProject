@@ -67,19 +67,19 @@ class TocMachine(GraphMachine):
 		
     def on_enter_state1(self, event):
         reply_token = event.reply_token
-        send_text_message(reply_token, "飯")
+        send_text_message(reply_token, "錢包狀態\n0 : 吃土\n1 : 一般\n2 : 盤子")
         
     def on_enter_state2(self, event):
         reply_token = event.reply_token
-        send_text_message(reply_token,"麵")
+        send_text_message(reply_token,"錢包狀態\n0 : 吃土\n1 : 一般\n2 : 盤子")
         
     def on_enter_state3(self, event):
         reply_token = event.reply_token
-        send_text_message(reply_token, "其他")
+        send_text_message(reply_token, "錢包狀態\n0 : 吃土\n1 : 一般\n2 : 盤子")
         
     def on_enter_state4(self, event):
         reply_token = event.reply_token
-        send_text_message(reply_token, "隨便")
+        send_text_message(reply_token, "錢包狀態\n0 : 吃土\n1 : 一般\n2 : 盤子")
     
     def on_enter_state5(self, event):
         reply_token = event.reply_token
